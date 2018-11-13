@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Silent-Aurora")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("© 2018 WulfMarius")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
