@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
+using MelonLoader;
 
 namespace SilentAurora
 {
-    internal class Implementation
+    internal class Implementation : MelonMod
     {
-        public static void OnLoad()
+        public override void OnApplicationStart()
         {
-            Debug.Log("[Silent-Aurora] Version " + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version);
+            Debug.Log($"[{Info.Name}] Version {Info.Version} loaded!");
         }
     }
 }
